@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport"/>
+<title>스튜디오 드래곤</title>
+<link rel="stylesheet" href="css/layout.css" type="text/css"/>
+<script src="js/jquery-3.6.0.js" type="text/javascript" text="javascript"></script>
+<script src="js/script.js" type="text/javascript" text="javascript"></script>
+
+<script src="slick/slick.js"></script>
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
+
+<link rel="stylesheet" href="aos/dist/aos.css"/>
+<script src="aos/dist/aos.js"></script>
+</head>
+
+<body>
+
+<header>
+	<div class="h_inner">
+		<div id="hammenu"><a href="javascript:void(0);"></a></div>
+
+		<div id="mainlogo">
+			<a href="index.html"><img src="img/mainlogo.png" alt="mainlogo"/></a>
+		</div>
+
+		<div id="mainlogo_m">
+			<a href="index.html"><img src="img/mainlogo_m.png" alt="mainlogo mobile"/></a>
+		</div>
+
+		<div id="lang">
+			<ul class="clearfix">
+				<li class="lang_on"><a href="#">KOR</a></li>
+				<li><a href="#">ENG</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<div class="clear"></div>
+
+<div id="mainmenu">
+	<div class="close_menu"><button></button></div>
+
+	<div class="menu_inner">
+		<ul class="menu">
+			<li><a href="#">COMPANY</a>
+				<ul class="submenu">
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</li>
+			<li><a href="#">WORKS</a>
+				<ul class="submenu">
+					<li><a href="contents.html">CONTENTS</a></li>
+				</ul>
+			</li>
+			<li><a href="#">RECRUIT</a>
+				<ul class="submenu">
+					<li><a href="recruit.html">WITH US</a></li>
+				</ul>
+			</li>
+			<li><a href="#">NEWS</a>
+				<ul class="submenu">
+					<li><a href="article.html">ARTICLES</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m_footer">
+		<div class="f_left">
+			ⓒ 2017 studio dragon corp. All Rights Reserved.
+		</div>
+
+		<ul class="f_right">
+			<li class="mf_sns"><a href="https://m.facebook.com/profile.php?id=181235255716322" target="_blank" ><img src="img/facebook.png" alt="facebook"/></a></li>
+			<li class="mf_sns"><a href="https://www.instagram.com/studiodragon.official/" target="_blank"><img src="img/insta.png" alt="insta"/></a></li>
+			<li class="mf_sns"><a href="https://twitter.com/hashtag/%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%EB%93%9C%EB%9E%98%EA%B3%A4" target="_blank"><img src="img/twitter.png" alt="twitter"/></a></li>
+		</ul>
+	</div>
+
+</div>
+
+<!-- section1[home] -->
+<section id="home">
+	<div class="home_inner">
+		<div class="textbox">
+			<p>ASIA NO.1 STUDIO<br/></p>
+			<span>아시아의 콘텐츠와 라이프스타일을<br/>선도합니다.</span>
+		</div>
+		<div class="textbox_m">
+			<p>ASIA NO.1 STUDIO<br/></p>
+			<span>아시아의 콘텐츠와 라이프스타일을 선도합니다.</span>
+		</div>
+
+		<div class="progress_bar">
+			<span class="bar"></span>
+		</div>
+
+		<div class="slide-wrap">
+			<div class="slide-group">
+				<div class="slide">
+					<a href="contents.html"><img src="img/slide1.png" alt="slide1"/></a>
+				</div>
+				<div class="slide">
+					<a href="contents.html"><img src="img/slide2.png" alt="slide2"/></a>
+				</div>
+				<div class="slide">
+					<a href="contents.html"><img src="img/slide3.png" alt="slide3"/></a>
+				</div>
+				<div class="slide">
+					<a href="contents.html"><img src="img/slide4.png" alt="slide4"/></a>
+				</div>
+				<div class="slide">
+					<a href="contents.html"><img src="img/slide5.png" alt="slide5"/></a>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+
+		<div id="scroll">
+			<p class="scroll_img"><img src="img/mouse.png" alt="scroll"/></p>
+		</div>
+	</div>
+</section>
+
+
+<!-- 오른쪽 스크롤 메뉴 -->
+<div id="scrollmenu">
+	<ul>
+		<li class="select"><a href="#home">HOME</a></li>
+		<li><a href="#onair">ON AIR</a></li>
+		<li><a href="#works">WORKS</a></li>
+		<li><a href="#issue">ISSUE</a></li>
+		<li><a href="#news">NEWS</a></li>
+	</ul>
+</div>
+
+<!-- section2[on air] -->
+<section id="onair">
+	<div class="onair_box" data-aos="fade-up" data-aos-duration="1000">
+		<p class="air_text1">ON AIR</p>
+		<span class="air_text2">스튜디오 드래곤이 제작한 드라마가 현재 방영 중입니다.</span>
+	</div>
+
+	<div id="onair_con_wrap">
+		<div class="onair_con">
+
+			<div id="content1" class="content"><a href="contents/contents_in_1.html">
+				<div class="content_text">
+					<div class="ct_text1">
+						<span class="ct1_font">스물다섯 스물하나</span><br/>tvN 토, 일요일 밤 9:15
+					</div>
+					<div class="ct_text2">
+						출연: 김태리, 남주혁 외<br/>
+						연출: 정지현, 김승호 외
+					</div>
+				</div>
+			</a></div>
+
+			<div id="content2" class="content"><a href="contents/contents_in_3.html">
+				<div class="content_text">
+					<div class="ct_text1">
+						<span class="ct1_font">배드 앤 크레이지</span><br/>tvN 금, 토일 밤 10:40
+					</div>
+					<div class="ct_text2">
+						출연: 이동욱, 위하준 외<br/>
+						연출: 유선동, 김새봄 외
+					</div>
+				</div>
+			</a></div>
+
+			<div id="content3" class="content"><a href="contents/contents_in_2.html">
+				<div class="content_text">
+					<div class="ct_text1">
+						<span class="ct1_font">고스트 닥터</span><br/>tvN 월, 화요일 밤 10:30
+					</div>
+					<div class="ct_text2">
+						출연: 정지훈, 김범 외<br/>
+						연출: 부성철, 문석환 외
+					</div>
+				</div>
+			</a></div>
+
+			<div id="content4" class="content"><a href="contents/contents_in_2.html">
+				<div class="content_text">
+					<div class="ct_text1">
+						<span class="ct1_font">마녀식당으로 오세요</span><br/>tvN 수, 목요일 밤 10:30
+					</div>
+					<div class="ct_text2">
+						출연: 송지효, 남지현, 채종협 외<br/>
+						연출: 소재현, 이수현 외
+					</div>
+				</div>
+			</a></div>
+		</div>
+	</div>
+
+	<div class="on_btn">
+		<button class="on_prev"></button>
+		<button class="on_next"></button>
+	</div>
+
+	
+</section>
+
+
+<!-- section3[works] -->
+<section id="works">
+	<div class="worksbox clearfix">
+		<div class="works_text" data-aos="fade-up" data-aos-duration="1000">
+			<p class="works_text1">WORKS</p>
+			<span class="works_text2">  많은 시청자들에게 사랑받은 역대 최고 인기 작품들입니다.</span>
+		</div>
+		<div class="more">
+			<a href="contents.html">VIEW MORE →</a>
+		</div>
+	</div>
+
+	<div id="works_wrap">
+		<div class="works_top clearfix">
+			<div class="work" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+				<img src="img/work1.png" alt="work1"/>
+				<div id="work_info1" class="work_info">
+					<div class="wf_title">호텔델루나</div>
+					<div class="wf_text">2020 방송통신위원회<br/>방송대상 우수상 수상</div>
+				</div>
+			</a></div>
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="contents/contents_in_2.html">
+				<img src="img/work2.png" alt="work2"/>
+				<div id="work_info2" class="work_info">
+					<div class="wf_title">사랑의 불시착</div>
+					<div class="wf_text">최종화 시청률 21.7% 달성<br/>tvN 역대 시청률 1위</div>
+				</div>
+			</a></div>
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="contents/contents_in_2.html">
+				<img src="img/work3.png" alt="work3"/>
+				<div id="work_info3" class="work_info">
+					<div class="wf_title">미스터 선샤인</div>
+					<div class="wf_text">2018 시청자가 뽑은<br/>올해의 드라마 선정</div>
+				</div>
+			</a></div>
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contents/contents_in_2.html">
+				<img src="img/work4.png" alt="work4"/>
+				<div id="work_info4" class="work_info">
+					<div class="wf_title">비밀의 숲</div>
+					<div class="wf_text">케이블 드라마에도 불구<br/>시청률 7% 달성</div>
+				</div>
+			</a></div>
+		</div>
+		
+		<div class="works_bottom clearfix">
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="0"><a href="contents/contents_in_2.html">
+				<img src="img/work5.png" alt="work5"/>
+				<div id="work_info5" class="work_info">
+					<div class="wf_title">도깨비</div>
+					<div class="wf_text">2017 케이블 TV 드라마<br/>방송 대상</div>
+				</div>
+			</a></div>
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="contents/contents_in_2.html">
+				<img src="img/work6.png" alt="work6"/>
+				<div id="work_info6" class="work_info">
+					<div class="wf_title">시그널</div>
+					<div class="wf_text">케이블 드라마에도 불구<br/>시청률 12% 달성</div>
+				</div>
+			</a></div>
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="contents/contents_in_2.html">
+				<img src="img/work7.png" alt="work7"/>
+				<div id="work_info7" class="work_info">
+					<div class="wf_title">미생</div>
+					<div class="wf_text">대한민국 국회 대상<br/>올해의 콘텐츠 상 수상</div>
+				</div>
+			</a></div>
+			<div class="work" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contents/contents_in_2.html">
+				<img src="img/work8.png" alt="work8"/>
+				<div id="work_info8" class="work_info">
+					<div class="wf_title">드림하이</div>
+					<div class="wf_text">첫 지상파 드라마 제작</div>
+				</div>
+			</a></div>
+		</div>
+	</div>
+
+	<div id="works_wrap_m"> 
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work1.png" alt="work1"/>
+			<div id="work_info1" class="work_info">
+				<div class="wf_title">호텔델루나</div>
+				<div class="wf_text">2020 방송통신위원회<br/>방송대상 우수상 수상</div>
+			</div>
+		</a></div>
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work2.png" alt="work2"/>
+			<div id="work_info2" class="work_info">
+				<div class="wf_title">사랑의 불시착</div>
+				<div class="wf_text">최종화 시청률 21.7% 달성<br/>tvN 역대 시청률 1위</div>
+			</div>
+		</a></div>
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work3.png" alt="work3"/>
+			<div id="work_info3" class="work_info">
+				<div class="wf_title">미스터 선샤인</div>
+				<div class="wf_text">2018 시청자가 뽑은<br/>올해의 드라마 선정</div>
+			</div>
+		</a></div>
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work4.png" alt="work4"/>
+			<div id="work_info4" class="work_info">
+				<div class="wf_title">비밀의 숲</div>
+				<div class="wf_text">케이블 드라마에도 불구<br/>시청률 7% 달성</div>
+			</div>
+		</a></div>
+	
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work5.png" alt="work5"/>
+			<div id="work_info5" class="work_info">
+				<div class="wf_title">도깨비</div>
+				<div class="wf_text">2017 케이블 TV 드라마<br/>방송 대상</div>
+			</div>
+		</a></div>
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work6.png" alt="work6"/>
+			<div id="work_info6" class="work_info">
+				<div class="wf_title">시그널</div>
+				<div class="wf_text">케이블 드라마에도 불구<br/>시청률 12% 달성</div>
+			</div>
+		</a></div>
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work7.png" alt="work7"/>
+			<div id="work_info7" class="work_info">
+				<div class="wf_title">미생</div>
+				<div class="wf_text">대한민국 국회 대상<br/>올해의 콘텐츠 상 수상</div>
+			</div>
+		</a></div>
+		<div class="work_m" data-aos="fade-up" data-aos-duration="1000"><a href="contents/contents_in_2.html">
+			<img src="img/work8.png" alt="work8"/>
+			<div id="work_info8" class="work_info">
+				<div class="wf_title">드림하이</div>
+				<div class="wf_text">첫 지상파 드라마 제작</div>
+			</div>
+		</a></div>
+	</div>
+</section>
+<div class="clear"></div>
+
+
+<!-- section4[issue] -->
+<section id="issue">
+	<div id="slogan">
+		<div class="slogan1" data-aos="slide-right" data-aos-duration="800">EXPAND YOUR MIND</div>
+		<div class="slogan2" data-aos="slide-left" data-aos-duration="800">CHANGE YOUR WORLD</div>
+	</div>
+
+	<div class="issue_wrap" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
+		<div class="issue_text">
+			<p class="it_text1">As a forerunner of the
+			industry, we are dedicated
+			to building a healthy
+			bussiness ecosystem.
+			<p class="it_text2">업계 리더로써 콘텐츠 산업의 건전한 생태계 조성에 힘쓰고, 관련한 일자리 창출을 실천합니다.</p>
+			<p class="go_recruit"><a href="recruit.html">채용정보 보러가기&nbsp&nbsp&nbsp→</a></p>
+		</div>
+	</div>
+</section>
+
+<!-- section5[news] -->
+<section id="news">
+	<div data-aos="fade-up" data-aos-duration="800">
+		<p class="news_text1">NEWS ROOM</p>
+		<span class="news_text2">스튜디오 드래곤의 보도자료를 한눈에 보기</span>
+	</div>
+	
+	<div class="news_wrap">
+		<div class="news_left"><a href="article/article_in1.html">
+			<div class="nl_text">
+				스튜디오드래곤, '수출의 탑'과 '2021 대한민국 콘텐츠 대상' 해외진출 유공 대통령 표창 수상
+				<span class="nl_date">2021.12.08</span>
+				<div class="nl_more">자세히 보기</div>
+			</div>
+		</a></div>
+
+		<div class="news_right">
+			<table class="nr">
+				<tr data-aos="fade-up" data-aos-duration="500">
+					<td><a href="article/article_in1.html">스튜디오 드래곤, 한국관광공사, LG유플러스 3사 손잡았다!</a></td>
+					<td>2021.11.17</td>
+				</tr>
+
+				<tr data-aos="fade-up" data-aos-duration="500">
+					<td><a href="article/article_in1.html">스튜디오 드래곤 作 ‘사이코지만 괜찮아’ 미국 ‘인터내셔널 에미 어워즈'...</a></td>
+					<td>2021.09.29</td>
+				</tr>
+
+				<tr data-aos="fade-up" data-aos-duration="500">
+					<td><a href="article/article_in1.html">단만극 ‘대리인간’ 유럽 스웨덴, 프랑스에서 열린 국제 영화제서 4관왕 쾌거</a></td>
+					<td>2021.08.09</td>
+				</tr>
+
+				<tr data-aos="fade-up" data-aos-duration="500">
+					<td><a href="article/article_in1.html">‘호텔 델루나’ 세계관, 메타버스 플랫폼 ‘제페토’ 에서 만난다!</a></td>
+					<td>2021.07.23</td>
+				</tr>
+
+				<tr data-aos="fade-up" data-aos-duration="500">
+					<td><a href="article/article_in1.html">스튜디오 드래곤, NFT 기반의 ‘디지털 굿즈’ 론칭! 빈센조 NFT 출시 시작으로..</a></td>
+					<td>2021.07.15</td>
+				</tr>
+			</table>	
+
+			<div class="newsmore">
+				<a href="article.html">기사 더 보기 →</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="m_news">
+		<table class="news_mobile">
+			<tr data-aos="fade-up" data-aos-duration="500">
+				<td><a href="article/article_in1.html">스튜디오 드래곤, '수출의 탑'과 '2021 대한민국 콘텐츠 대상'...</a></td>
+				<td>2021.12.08</td>
+			</tr>
+			
+			<tr data-aos="fade-up" data-aos-duration="500">
+				<td><a href="article/article_in1.html">스튜디오 드래곤, 한국관광공사, LG유플러스 3사 손잡았다!</a></td>
+				<td>2021.11.17</td>
+			</tr>
+
+			<tr data-aos="fade-up" data-aos-duration="500">
+				<td><a href="article/article_in1.html">스튜디오 드래곤 作 ‘사이코지만 괜찮아’ 미국 ‘인터내셔널 에미...</a></td>
+				<td>2021.09.29</td>
+			</tr>
+
+			<tr data-aos="fade-up" data-aos-duration="500">
+				<td><a href="article/article_in1.html">단만극 ‘대리인간’ 유럽 스웨덴, 프랑스에서 열린 국제 영화제서...</a></td>
+				<td>2021.08.09</td>
+			</tr>
+
+			<tr data-aos="fade-up" data-aos-duration="500">
+				<td><a href="article/article_in1.html">‘호텔 델루나’ 세계관, 메타버스 플랫폼 ‘제페토’ 에서 만난다!</a></td>
+				<td>2021.07.23</td>
+			</tr>
+
+			<tr data-aos="fade-up" data-aos-duration="500">
+				<td><a href="article/article_in1.html">스튜디오 드래곤, NFT 기반의 ‘디지털 굿즈’ 론칭! 빈센조 NFT..</a></td>
+				<td>2021.07.15</td>
+			</tr>
+		</table>
+
+		<div class="newsmore">
+			<a href="article.html">기사 더 보기 →</a>
+		</div>
+	</div>
+</section>
+<div class="clear"></div>
+
+<footer>
+	<div class="ft_top">
+		<div class="ft_left">
+			<p class="ft_text1"><span>스튜디오 드래곤</span><br/>STUDIO DRAGON CORP.</p>
+			<p class="ft_text2">SINCE 2016.05.03<br/>SOUTH KOREA</p>
+			<address>(주)스튜디오드래곤  서울특별시 마포구 매봉산로 75, 17층 스튜디오 드래곤 주식회사<br/>사업자등록번호: 747-81-00388   대표자: 김영규, 김제현</address>
+		</div>
+
+		<div class="ft_right">
+			<button class="gotop">↑</button>
+			<ul class="ft_sns clearfix">
+				<li><a href="https://m.facebook.com/profile.php?id=181235255716322" target="_blank" ><img src="img/facebook.png" alt="facebook"/></a></li>
+				<li><a href="https://www.instagram.com/studiodragon.official/" target="_blank" ><img src="img/insta.png" alt="instagram"/></a></li>
+				<li><a href="https://twitter.com/hashtag/%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%EB%93%9C%EB%9E%98%EA%B3%A4" target="_blank"><img src="img/twitter.png" alt="twitter"/></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="ft_bottom clearfix">
+		<ul class="fb_link">
+			<li><a href="#">법적고지</a></li>
+			<li><a href="#">이메일무단수집거부</a></li>
+			<li><a href="#">사이버감사실</a></li>
+			<li><a href="#">CONTACT US</a></li>
+		</ul>
+
+		<div class="copy">ⓒ2017 STUDIO DRAGON Corp. All Rights Reserved.</div>
+	</div>
+</footer>
+
+</body>
+</html>
